@@ -26,7 +26,9 @@ if __name__ == "__main__":
 
     cursor = db_connection.cursor()
 
-    my_query = "SELECT * FROM states WHERE BINARY name = '{}'".format(searching_value)
+    my_query = "SELECT * FROM states WHERE BINARY name = '{}'".format(
+        searching_value
+        )
 
     cursor.execute(my_query)
 
