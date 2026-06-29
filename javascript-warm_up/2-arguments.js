@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+// #!/usr/bin/node
+
+const scriptArgs = process.argv;
+const argsLength = scriptArgs.length;
+
+if (argsLength === 3) {
+  console.log('Argument found');
+} else if (argsLength > 3) {
+  console.log('Arguments found');
+} else {
+  console.log('No argument');
+}
