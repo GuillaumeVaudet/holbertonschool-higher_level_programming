@@ -5,3 +5,5 @@
 *.json
 *.xml
 *.csv
+
+node_modules
