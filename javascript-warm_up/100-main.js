@@ -1,6 +1,6 @@
-#!/usr/bin/env node
-// #!/usr/bin/node
+#!/usr/bin/node
+// #!/usr/bin/env node
 
-myVar = 89;
-require('./100-let_me_const')
+let myVar = 89;
+require('./100-let_me_const');
 console.log(myVar);

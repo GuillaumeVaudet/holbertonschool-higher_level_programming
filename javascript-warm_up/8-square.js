@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-// #!/usr/bin/node
+#!/usr/bin/node
+// #!/usr/bin/env node
 
 const iteratorToPrint = process.argv[2];
 const integerIterator = parseInt(iteratorToPrint);

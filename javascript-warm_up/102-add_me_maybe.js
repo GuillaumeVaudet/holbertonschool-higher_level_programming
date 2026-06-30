@@ -1,8 +1,8 @@
-#!/usr/bin/env node
-// #!/usr/bin/node
+#!/usr/bin/node
+// #!/usr/bin/env node
 
 function addMeMaybe (number, theFunction) {
-  let newNumber = number + 1;
+  const newNumber = number + 1;
   theFunction(newNumber);
 }
 

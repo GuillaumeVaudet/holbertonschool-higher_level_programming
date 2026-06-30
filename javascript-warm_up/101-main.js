@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-// #!/usr/bin/node
+#!/usr/bin/node
+// #!/usr/bin/env node
 
 const callMeMoby = require('./101-call_me_moby').callMeMoby;
 callMeMoby(3, function () {

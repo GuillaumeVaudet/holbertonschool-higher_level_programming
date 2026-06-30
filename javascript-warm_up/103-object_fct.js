@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-// #!/usr/bin/node
+#!/usr/bin/node
+// #!/usr/bin/env node
 
 const myObject = {
   type: 'object',
@@ -9,7 +9,7 @@ console.log(myObject);
 
 myObject.incr = function () {
   this.value += 1;
-} 
+};
 
 myObject.incr();
 console.log(myObject);

@@ -1,14 +1,14 @@
-#!/usr/bin/env node
-// #!/usr/bin/node
+#!/usr/bin/node
+// #!/usr/bin/env node
 
-const iterator_to_print = process.argv[2];
-const integer_iterator = parseInt(iterator_to_print);
+const iteratorToPrint = process.argv[2];
+const integerIterator = parseInt(iteratorToPrint);
 let i = 0;
 
-if (isNaN(integer_iterator)) {
+if (isNaN(integerIterator)) {
   console.log('Missing number of occurences');
 } else {
-  while (i < integer_iterator) {
+  while (i < integerIterator) {
     console.log('C is fun');
     i++;
   }

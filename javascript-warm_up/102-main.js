@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-// #!/usr/bin/node
+#!/usr/bin/node
+// #!/usr/bin/env node
 
 const addMeMaybe = require('./102-add_me_maybe').addMeMaybe;
 addMeMaybe(4, function (nb) {

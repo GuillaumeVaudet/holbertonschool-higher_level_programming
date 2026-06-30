@@ -1,5 +1,5 @@
-#!/usr/bin/env node
-// #!/usr/bin/node
+#!/usr/bin/node
+// #!/usr/bin/env node
 
 const rawArgs = process.argv.slice(2);
 const numbers = rawArgs.map(Number);
