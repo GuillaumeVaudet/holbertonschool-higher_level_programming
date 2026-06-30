@@ -1,11 +1,10 @@
 #!/usr/bin/node
 // #!/usr/bin/env node
 
-const scriptArgs = process.argv;
-const argsLength = scriptArgs.length;
+const args = process.argv;
 
-if (argsLength === 2) {
-  console.log('No argument');
+if (args[2]) {
+  console.log(args[2]);
 } else {
-  console.log(scriptArgs[2]);
+  console.log('No argument');
 }
