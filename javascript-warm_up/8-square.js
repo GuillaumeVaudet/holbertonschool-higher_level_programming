@@ -10,7 +10,7 @@ if (isNaN(integerIterator)) {
   for (let i = 0; i < integerIterator; i++) {
     let row = '';
     for (let j = 0; j < integerIterator; j++) {
-      row += 'x';
+      row += 'X';
     }
     console.log(row);
   }
