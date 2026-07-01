@@ -2,20 +2,24 @@
 <html lang="en">
   <head>
     <title>Holberton School</title>
-    <script type="text/javascript" src="100-script.js"></script>
+    <script type="text/javascript" src="101-script.js"></script>
   </head>
   <body>
     <header> 
-      First HTML page
+      Say Hello
     </header>
     <br />
-    <div id="add_item">Add item</div>
-    <div id="remove_item">Remove item</div>
-    <div id="clear_list">Clear list</div>
+    <label for="language_code">Language code:</label>
+    <select name="language" id="language_code">
+        <option value="">--Please choose an option--</option>
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+    </select>
+    <input id="btn_translate" type="button" value="Translate"/>
     <br />
-    <ul class="my_list">
-      <li>Item</li>
-    </ul>
+    <div id="hello"></div>
+    <br />
     <footer>
       Holberton School - 2022
     </footer>
